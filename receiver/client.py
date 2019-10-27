@@ -1,7 +1,7 @@
 import socket
 s = socket.socket()
 host = input(str("Lütfen göndericinin host adresini(adını) giriniz : "))
-port = 8000
+port = 300
 s.connect((host,port))
 print("Bağlandı ... ")
 

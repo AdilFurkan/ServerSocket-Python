@@ -2,7 +2,7 @@ import socket
 
 s = socket.socket()
 host = socket.gethostname()
-port = 8000
+port = 300
 s.bind((host,port))
 s.listen(1)
 print(host)
